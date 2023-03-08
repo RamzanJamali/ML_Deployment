@@ -5,6 +5,7 @@ from flask import Flask, jsonify, request
 
 # Load the model
 model = cb.CatBoostClassifier()
+# model.load_model("E:/Python/ML_Deployment/ML_Deployment/deployment/flask/loan_catboost_model.cbm")
 model.load_model("loan_catboost_model.cbm")
 
 # Init the app

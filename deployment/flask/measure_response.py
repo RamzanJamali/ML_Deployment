@@ -27,7 +27,7 @@ if __name__ == "__main__":
     }
 
     # Location of my server
-    url = "http://0.0.0.0:8989/predict"
+    url = "http://192.168.0.106:8989/predict"
 
     # Measure the response time
     all_times = []
